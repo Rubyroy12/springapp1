@@ -1,5 +1,9 @@
 package com.example.crudemo.student;
 
-public interface StudentRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository //make class resposible for data access
+public interface StudentRepository  extends JpaRepository<Student,Long> {
 
 }
