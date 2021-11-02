@@ -30,7 +30,7 @@ public class CrudemoApplication {
 	public List<Student> mystudent(){
 		return List.of(
 				new Student(
-						1,"Ibrahim","ibrahim@gmail.com", LocalDate.of(1996, 2,14),25
+						1L,"Ibrahim","ibrahim@gmail.com", LocalDate.of(1996, 2,14),25
 				)
 		);
 	}
